@@ -13,14 +13,15 @@ html{
         background: $bodyColor;
     }
 }
-section{
-article{
-    
-    img{
-        width: 270px;
-        height: 147px;
+  img{
+        width: 100%;
+        max-width: 100%;
         display: block;
     }
+
+article{
+    
+  
     h2{
         font: 3rem/2rem 'Open Sans', sans-serif;
         color:$headline;
@@ -44,15 +45,21 @@ article{
         width: 10rem;
         background: #e85356;
         padding: 1rem;
+        transform: all 2s;
     }
+     a:hover{
+        color: $bodyColor;
+         text-decoration: underline;       
+            }
 }
-}
+
 @media screen and (min-width:1170px){
     
-    section{
-        width: 1900px;
+    .content{
+        width: 1170px;
         margin: auto;
-        article{
+        
+       
             .parag{
                 font-size:1.4rem;
     } 
@@ -65,10 +72,8 @@ article{
                 padding: 1rem 1.5rem;
                 
             }
-            a:hover{
-                color: $bodyColor;
-            }
-        }
+           
+        
     }
    
     

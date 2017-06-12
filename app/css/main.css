@@ -5457,46 +5457,49 @@ html {
   html body {
     background: #000; }
 
-section article img {
-  width: 270px;
-  height: 147px;
+img {
+  width: 100%;
+  max-width: 100%;
   display: block; }
 
-section article h2 {
+article h2 {
   font: 3rem/2rem 'Open Sans', sans-serif;
   color: #fff;
   padding-bottom: 2.8rem;
   padding-top: 1.5rem; }
 
-section article .parag {
+article .parag {
   font: 1.6rem/2rem 'Open Sans';
   color: #fff;
   padding-top: 3.2rem;
   margin-bottom: 0; }
 
-section article p {
+article p {
   font: 1.6rem/2rem 'Open Sans';
   color: #7f7f7f; }
 
-section article a {
+article a {
   display: block;
   font: 1.6rem/2rem 'Open Sans', sans-serif;
   color: #fff;
   width: 10rem;
   background: #e85356;
-  padding: 1rem; }
+  padding: 1rem;
+  transform: all 2s; }
+
+article a:hover {
+  color: #000;
+  text-decoration: underline; }
 
 @media screen and (min-width: 1170px) {
-  section {
-    width: 1900px;
+  .content {
+    width: 1170px;
     margin: auto; }
-    section article .parag {
+    .content .parag {
       font-size: 1.4rem; }
-    section article p {
+    .content p {
       font-size: 1.4rem; }
-    section article a {
+    .content a {
       font-size: 1.4rem;
       margin-top: 3rem;
-      padding: 1rem 1.5rem; }
-    section article a:hover {
-      color: #000; } }
+      padding: 1rem 1.5rem; } }
