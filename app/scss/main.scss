@@ -1,0 +1,75 @@
+@import 'bootstrap/bootstrap';
+$bodyColor: #000;
+$headline: #fff;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font: 62.5%;
+    body{
+        background: $bodyColor;
+    }
+}
+section{
+article{
+    
+    img{
+        width: 270px;
+        height: 147px;
+        display: block;
+    }
+    h2{
+        font: 3rem/2rem 'Open Sans', sans-serif;
+        color:$headline;
+        padding-bottom: 2.8rem;
+        padding-top: 1.5rem;
+    }
+    .parag{
+        font:1.6rem/2rem 'Open Sans';
+        color: $headline;
+        padding-top: 3.2rem;
+        margin-bottom: 0;
+    }
+    p{
+       font:1.6rem/2rem 'Open Sans';
+        color:#7f7f7f;
+    }
+    a{
+        display: block;
+        font:1.6rem/2rem 'Open Sans', sans-serif;
+        color:$headline;
+        width: 10rem;
+        background: #e85356;
+        padding: 1rem;
+    }
+}
+}
+@media screen and (min-width:1170px){
+    
+    section{
+        width: 1900px;
+        margin: auto;
+        article{
+            .parag{
+                font-size:1.4rem;
+    } 
+        p{
+             font-size:1.4rem;
+     
+    }
+            a{  font-size: 1.4rem;
+                margin-top: 3rem;
+                padding: 1rem 1.5rem;
+                
+            }
+            a:hover{
+                color: $bodyColor;
+            }
+        }
+    }
+   
+    
+}
